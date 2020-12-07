@@ -1,0 +1,62 @@
+
+h1{
+    color:green
+}
+button{
+    background-color: lightgrey;
+    border-block-color: grey;
+    width:100px;
+
+}
+input {
+    width: 30%;
+    margin-bottom: 20px;
+    height:5%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+        font-family: Arial;
+        
+      
+  }
+
+  .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 20%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  .errName{
+display: none;
+color: red;
+    
+  }
+  .errCard{
+    display: none;
+    color: red;
+        
+    }
+      .errLimit{
+        display: none;
+        color: red;
+            
+          }
+    .errCardLength{
+        display: none;
+        color: red;
+              
+    }

@@ -1,0 +1,17 @@
+{{message}}
+<table style="width:100%">
+    <tr>
+      <th>Name</th>
+      <th>Card number</th> 
+      <th>Balance(£)</th>
+      <th>Limit(£)</th>
+    </tr>
+    <tr *ngFor = 'let record of records'>
+        <td>{{record.name}}</td>
+        <td>{{record.creditCardNumber}}</td>
+        <td>{{record.balance}}</td>
+        <td>{{record.limit}}</td>
+    </tr>
+   
+  </table>
+  
